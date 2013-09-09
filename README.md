@@ -19,3 +19,4 @@ Currently we are in the first stages of development. Any insight or ideas are al
 free to join. 
 
 
+Thank you have a great day!
