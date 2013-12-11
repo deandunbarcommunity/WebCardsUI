@@ -1,0 +1,60 @@
+
+
+.title {font: 16px 'AmericanTypewriter', Cambria, Georgia; color: #282625; margin: 0 auto; }
+.WebCardsContainer {
+padding: 37px 55px 27px;
+position: relative;
+border: 1px solid #B5B5B5;
+background: white;
+background: -webkit-linear-gradient(top, #7CC3E2 0%, white 8%) 0 57px;
+background: -moz-linear-gradient(top, #7CC3E2 0%, white 8%) 0 57px;
+background: linear-gradient(top, #7CC3E2 0%, white 8%) 0 57px;
+-webkit-background-size: 100% 30px;
+-moz-background-size: 100% 30px;
+-ms-background-size: 100% 30px;
+background-size: 100% 30px;
+overflow: auto;
+height:300px;
+}
+
+.WebCardsCard{
+height:250px;
+background: #CBC4C4;
+margin-bottom: 20px;
+
+
+}
+
+
+
+.card {
+padding: 1px 40px 57px;
+position: relative;
+border: 1px solid #B5B5B5;
+background: white;
+background: -webkit-linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+background: -moz-linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+background: linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+-webkit-background-size: 100% 30px;
+-moz-background-size: 100% 30px;
+-ms-background-size: 100% 30px;
+background-size: 100% 30px;
+}
+.card::before {content:""; z-index:-1; margin:0 1px;  height:10px; position:absolute; bottom:-3px; left:0; background:white; border:1px solid #B5B5B5;}
+.card::after {content:''; position:absolute; width:0px; top:0; left:39px; bottom:0; border-left:1px solid #F8D3D3;}
+
+
+
+.selected{
+height:150px;
+margin-top: 10px;
+}
+
+.minimized{
+border-style:solid;
+border-color:#BFBFBF;
+}
+
+.card-content{
+padding: 45px 55px 27px;
+}
